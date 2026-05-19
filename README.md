@@ -478,7 +478,7 @@ Users will be able to:
 ## Future App Download Button
 
 ```html
-<a href="YOUR_APP_DOWNLOAD_LINK">
+<a href="https://github.com/sumit7366/startUP/blob/main/Farmer.apk">
   Download Farmer Connect App
 </a>
 ```
