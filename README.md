@@ -261,122 +261,75 @@ The platform includes secure authentication using Firebase.
 
 ---
 
-# 📂 Project Structure
+## 📁 Project Structure
 
-```bash
+```
 farmer-connect/
 ├── app/
+│   ├── (auth)/
+│   │   ├── login/page.tsx
+│   │   └── register/page.tsx
+│   ├── (dashboard)/
+│   │   ├── layout.tsx
+│   │   ├── feed/page.tsx
+│   │   ├── marketplace/
+│   │   │   ├── page.tsx
+│   │   │   ├── new/page.tsx
+│   │   │   └── [id]/page.tsx
+│   │   ├── chat/
+│   │   │   ├── page.tsx
+│   │   │   └── [id]/page.tsx
+│   │   ├── jobs/page.tsx
+│   │   ├── network/page.tsx
+│   │   ├── notifications/page.tsx
+│   │   ├── ai-assistant/page.tsx
+│   │   ├── subscription/page.tsx
+│   │   ├── ads/page.tsx
+│   │   └── profile/[[...uid]]/page.tsx
+│   ├── (admin)/
+│   │   ├── layout.tsx
+│   │   ├── dashboard/page.tsx
+│   │   ├── payments/page.tsx
+│   │   ├── users/page.tsx
+│   │   ├── ads/page.tsx
+│   │   └── settings/page.tsx
+│   ├── api/ai/route.ts
+│   ├── contact/page.tsx
+│   ├── help/page.tsx
+│   ├── privacy/page.tsx
+│   ├── terms/page.tsx
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── globals.css
 ├── components/
-├── contexts/
+│   └── layout/
+│       ├── Sidebar.tsx
+│       ├── Header.tsx
+│       └── BottomNav.tsx
 ├── lib/
+│   ├── firebase/
+│   │   ├── config.ts
+│   │   ├── auth.ts
+│   │   ├── firestore.ts
+│   │   └── storage.ts
+│   ├── types/index.ts
+│   └── utils/index.ts
+├── contexts/
+│   └── AuthContext.tsx
 ├── middleware.ts
-├── firebase.json
 ├── firestore.rules
 ├── storage.rules
-├── package.json
-└── next.config.mjs
-```
+├── firestore.indexes.json
+├── firebase.json
+├── tailwind.config.ts
+├── next.config.mjs
+└── package.json
+
 
 The project follows enterprise-level folder architecture for scalability and maintainability.
 
 ---
 
-# ⚙️ Installation Guide
-
-## 1️⃣ Clone Repository
-
-```bash
-git clone https://github.com/farmerrsupport/farmer.git
-```
-
-## 2️⃣ Open Project
-
-```bash
-cd farmer
-```
-
-## 3️⃣ Install Dependencies
-
-```bash
-npm install
-```
-
----
-
-# 🔥 Firebase Setup
-
-## Create Firebase Project
-
-1. Open Firebase Console
-2. Create new project
-3. Enable Firestore
-4. Enable Authentication
-5. Enable Firebase Storage
-
----
-
-## Enable Authentication
-
-Enable:
-
-- Google Login
-- Email/Password Login
-
----
-
-## Configure Environment Variables
-
-Create `.env.local`
-
-```env
-NEXT_PUBLIC_FIREBASE_API_KEY=
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
-NEXT_PUBLIC_FIREBASE_PROJECT_ID=
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
-NEXT_PUBLIC_FIREBASE_APP_ID=
-ANTHROPIC_API_KEY=
-```
-
----
-
-# 🚀 Run Development Server
-
-```bash
-npm run dev
-```
-
-Open:
-
-```bash
-http://localhost:3000
-```
-
----
-
-# 🌐 Deployment Guide
-
-## Deploy Using Vercel
-
-### Method 1 — GitHub Integration
-
-1. Push code to GitHub
-2. Open Vercel
-3. Import Repository
-4. Add Environment Variables
-5. Deploy
-
----
-
-### Method 2 — Vercel CLI
-
-```bash
-npm install -g vercel
-vercel login
-vercel --prod
-```
-
----
 
 # 📱 Features Checklist
 
@@ -475,13 +428,12 @@ Users will be able to:
 - Access AI Assistant Anywhere
 - Connect with Local Businesses & People
 
-## Future App Download Button
 
-```html
-<a href="https://github.com/sumit7366/startUP/blob/main/Farmer.apk">
-  Download Farmer Connect App
-</a>
-```
+## 📥 Download Farmer Connect App
+
+[⬇️ Download Farmer Connect APK](https://github.com/sumit7366/startUP/raw/main/Farmer.apk)
+
+Click the button above to directly download the Farmer Connect Android application (APK file).
 
 The platform architecture is fully compatible with future Android and iOS app deployment.
 
@@ -493,8 +445,6 @@ The platform architecture is fully compatible with future Android and iOS app de
 | Phone | 7366006363 |
 | Email | farmerrsupport@gmail.com |
 | Website | https://farmer-six-sigma.vercel.app/ |
-| GitHub | https://github.com/farmerrsupport/farmer |
-
 ---
 
 # ❤️ Built For Indian Farmers
