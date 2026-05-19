@@ -2,7 +2,16 @@
 
 > **Empowering Indian Farmers with Technology, Commerce, Community & AI**
 
-Farmer Connect is an industry-level AgriTech startup platform designed to transform the agriculture ecosystem of India by bringing farmers, buyers, workers, advertisers, and agriculture businesses together into one digital ecosystem.
+Farmer Connect is an industry-level AgriTech startup platform designed to transform the agriculture ecosystem of India by bringing farmers, buyers, workers, advertisers, local businesses, service providers, shop owners, and everyday local users together into one powerful digital ecosystem.
+
+This platform is not limited to farmers only — anyone can use Farmer Connect to:
+- Buy & sell products
+- Promote local businesses
+- Find jobs or workers
+- Build professional connections
+- Advertise services
+- Chat and network locally
+- Access AI-powered assistance
 
 The platform combines:
 
@@ -449,7 +458,33 @@ India has over 140+ million farmers, making AgriTech one of the fastest-growing 
 - Agri Brand Promotions
 - AI Farming Services
 
+
 ---
+
+# 📲 Mobile Application Support
+
+Farmer Connect is also designed as a future-ready mobile application platform.
+
+Users will be able to:
+
+- Download Android App
+- Install APK Directly
+- Access Marketplace on Mobile
+- Use Real-Time Chat
+- Receive Push Notifications
+- Access AI Assistant Anywhere
+- Connect with Local Businesses & People
+
+## Future App Download Button
+
+```html
+<a href="YOUR_APP_DOWNLOAD_LINK">
+  Download Farmer Connect App
+</a>
+```
+
+The platform architecture is fully compatible with future Android and iOS app deployment.
+
 
 # 📞 Support & Contact
 
