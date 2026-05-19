@@ -432,14 +432,17 @@ Users will be able to:
 ## 📥 Download Farmer Connect App
 
 <p align="center">
+
   <a href="https://github.com/sumit7366/startUP/raw/main/Farmer.apk">
-    <button style="background-color:#28a745;color:white;padding:12px 20px;border:none;border-radius:8px;font-size:16px;cursor:pointer;">
-      ⬇️ Download Farmer Connect APK
-    </button>
+    <img src="https://img.shields.io/badge/⬇️%20DOWNLOAD%20APK-FARMER%20CONNECT-2ea44f?style=for-the-badge&logo=android&logoColor=white" />
   </a>
+
 </p>
 
-👉 Click the button above to download the app directly.
+<p align="center">
+  🚀 Click the button above to download the latest Farmer Connect APK directly to your device
+</p>
+
 The platform architecture is fully compatible with future Android and iOS app deployment.
 
 
