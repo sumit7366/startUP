@@ -433,11 +433,13 @@ Users will be able to:
 
 <p align="center">
   <a href="https://github.com/sumit7366/startUP/raw/main/Farmer.apk">
-    <img src="https://img.shields.io/badge/⬇️%20Download%20APK-Farmer%20Connect-green?style=for-the-badge" alt="Download APK"/>
+    <button style="background-color:#28a745;color:white;padding:12px 20px;border:none;border-radius:8px;font-size:16px;cursor:pointer;">
+      ⬇️ Download Farmer Connect APK
+    </button>
   </a>
 </p>
 
-👉 Click the button above to directly download the **Farmer Connect Android Application (APK file)**.
+👉 Click the button above to download the app directly.
 The platform architecture is fully compatible with future Android and iOS app deployment.
 
 
